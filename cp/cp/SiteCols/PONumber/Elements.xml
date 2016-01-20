@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9bf515e6-6edb-48d0-b480-b0a94751d764}"
+       Name="PONumber"
+       DisplayName="PO Number"
+       StaticName="PONumber"
+       Type="Text"
+       Description="Purchase Number - to be assigned by Procurement/Purchasing"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

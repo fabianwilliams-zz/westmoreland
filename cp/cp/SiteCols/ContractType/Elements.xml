@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{696c1986-df2f-4afc-80d0-491ae4ce6131}"
+       Name="ContractType"
+       DisplayName="Contract Type"
+       StaticName="ContractType"
+       Type="Choice"
+       Description="Select your choice"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Accounting/Finance</CHOICE>          
+          <CHOICE>Architect</CHOICE>
+          <CHOICE>Capital Outlay</CHOICE>
+          <CHOICE>Caterers</CHOICE>
+          <CHOICE>Communications</CHOICE>
+          <CHOICE>Contractors</CHOICE>
+          <CHOICE>Engineers</CHOICE>
+          <CHOICE>Equipment</CHOICE>
+          <CHOICE>Lease</CHOICE>
+          <CHOICE>Legal</CHOICE>
+          <CHOICE>Performers</CHOICE>
+          <CHOICE>Services</CHOICE>
+          <CHOICE>Supplies</CHOICE>
+          <CHOICE>Tutors</CHOICE>
+          <CHOICE>TBD</CHOICE>
+        </CHOICES>
+        <Default>TBD</Default>
+  </Field>
+</Elements>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{10327a10-25e0-4de2-b03a-af9ccccfe11d}"
+       Name="ContractLength"
+       DisplayName="Contract Length"
+       StaticName="ContractLength"
+       Type="Choice"
+       Description="Select your choice"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Single Project</CHOICE>          
+          <CHOICE>Upon sign off</CHOICE>
+          <CHOICE>1 year</CHOICE>
+          <CHOICE>2 year</CHOICE>
+          <CHOICE>3 year</CHOICE>
+          <CHOICE>4 year</CHOICE>
+          <CHOICE>5 year</CHOICE>
+          <CHOICE>TBD</CHOICE>
+        </CHOICES>
+        <Default>TBD</Default>
+  </Field>
+</Elements>

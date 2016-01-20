@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{0da7ff56-bf6a-437e-8bb5-ac4e3b0bbd1f}"
+       Name="AddendumOrChangeYesNo"
+       DisplayName="Is Addendum Or Change? "
+       StaticName="AddendumOrChangeYesNo"
+       Type="Choice"
+       Description="Is it?"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

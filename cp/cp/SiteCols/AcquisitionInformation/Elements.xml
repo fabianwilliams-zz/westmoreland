@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3ef5fc71-9d59-496a-9f81-c2d192b59d7b}"
+       Name="AcquisitionInformation"
+       DisplayName="Acquisition Information"
+       StaticName="AcquisitionInformation"
+       Type="Choice"
+       Description="Select your Choice"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Undetermined</CHOICE>          
+          <CHOICE>RFP</CHOICE>
+          <CHOICE>Sole Source</CHOICE>
+        </CHOICES>
+        <Default>Undetermined</Default>
+  </Field>
+</Elements>

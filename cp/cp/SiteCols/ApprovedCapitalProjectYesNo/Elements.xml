@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{39032f2a-fb0f-45f8-8174-2dba90958bdf}"
+       Name="ApprovedCapitalProjectYesNo"
+       DisplayName="Is Approved Capital Project?"
+       StaticName="ApprovedCapitalProjectYesNo"
+       Type="Choice"
+       Description="Is this a Capital Project that has alredy been approved?"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

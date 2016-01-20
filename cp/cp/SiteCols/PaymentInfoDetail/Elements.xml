@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{69fe85d3-ea6e-42a6-a3fb-55d57a8cd333}"
+       Name="PaymentInfoDetail"
+       DisplayName="Payment Info Detail"
+       StaticName="PaymentInfoDetail"
+       Description="Place any notes or comments that will assist us. If payment info is Percent explain: EX:30-40-30"
+       Type="Note"
+       RichText="TRUE"
+       RichTextMode="Compatible"
+       NumLines="6"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

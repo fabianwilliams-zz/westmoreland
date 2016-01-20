@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{7932fbcd-23c0-4a72-b662-8821bce9e172}"
+       Name="DownpaymentAmount"
+       DisplayName="Downpayment Amount"
+       StaticName="DownpaymentAmount"
+       Type="Number"
+       Description="If applicable enter amount here"
+       Required="TRUE"
+       Sealed="FALSE"
+       Min="1"
+       Max="50000000"
+       Decimals="2"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

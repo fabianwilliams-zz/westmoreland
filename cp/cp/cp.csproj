@@ -43,27 +43,75 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="SiteCols\AcquisitionInformation\Elements.xml" />
+    <Content Include="SiteCols\AddendumOrChangeYesNo\Elements.xml" />
+    <Content Include="SiteCols\ApprovedCapitalProjectYesNo\Elements.xml" />
+    <Content Include="SiteCols\AutoRenewYesNo\Elements.xml" />
+    <Content Include="SiteCols\ContractAmount\Elements.xml" />
+    <Content Include="SiteCols\ContractLength\Elements.xml" />
+    <Content Include="SiteCols\ContractType\Elements.xml" />
+    <Content Include="SiteCols\DownpaymentAmount\Elements.xml" />
+    <Content Include="SiteCols\IsDownpaymentRequiredYesNo\Elements.xml" />
     <Content Include="SiteCols\LegalReviewYesNo\Elements.xml" />
     <Content Include="SiteCols\NationalSexOffenderRegDone\Elements.xml" />
-    <Content Include="SiteCols\PreviousCodeDocDone\Elements.xml" />
+    <Content Include="SiteCols\PaymentInfoDetail\Elements.xml" />
+    <Content Include="SiteCols\PaymentInfo\Elements.xml" />
+    <Content Include="SiteCols\PreferenceCodeDocDone\Elements.xml" />
     <Content Include="SiteCols\ReviewedInLegalBy\Elements.xml" />
+    <Content Include="SiteCols\WaiverOfImmunityYesNo\Elements.xml" />
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2ba12afa-afc0-4a6b-b7c7-52dc9bcecf66}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="SiteCols\AcquisitionInformation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1787563a-2e48-4413-b220-f39d729853f5}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\AddendumOrChangeYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{246a7637-ae88-4543-aac9-a26f9591b52a}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ApprovedCapitalProjectYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{88178be9-7448-48ac-bbb8-638b07304c73}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\AutoRenewYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{02af173b-a28c-479f-aaa7-8124350891cb}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractAmount\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2c750dc4-e0a3-4216-9c21-25ebd914f596}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractLength\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bb1e6e9f-1e65-416b-8f71-4e8ff75a5a51}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{59678da6-6c99-4b2e-9c01-f9f7351fb0a4}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\DownpaymentAmount\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f5e673dd-99bb-4796-92fd-2066ea11b35d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\IsDownpaymentRequiredYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ad205a58-ad91-4457-8173-41e1355277e4}</SharePointProjectItemId>
+    </None>
     <None Include="SiteCols\LegalReviewYesNo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{255ea55d-bbd6-4320-bb1b-8c6526888951}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\NationalSexOffenderRegDone\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{fb22a27e-e413-4523-89cd-00352e729294}</SharePointProjectItemId>
     </None>
-    <None Include="SiteCols\PreviousCodeDocDone\SharePointProjectItem.spdata">
+    <None Include="SiteCols\PaymentInfoDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7814fea5-dc07-4e9d-829b-90dce57eb514}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PaymentInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e9432b0b-44da-47bd-91b4-ed468a7075be}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PreferenceCodeDocDone\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{a09a1756-db51-4654-a973-30da275fff96}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\ReviewedInLegalBy\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2f1b2404-4485-4ac3-96e8-b4c8b33f2a2f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\WaiverOfImmunityYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{65c81c4d-6015-4296-9d62-abf00256cd18}</SharePointProjectItemId>
     </None>
   </ItemGroup>
   <ItemGroup>
