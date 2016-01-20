@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{ef80c4f9-b30e-4a68-a908-8a426720a6a8}"
+       Name="ReviewedInLegalBy"
+       DisplayName="Reviewed In Legal By"
+       StaticName="ReviewedInLegalBy"
+       Type="User"
+       UserSelectionMode="PeopleOnly"
+       ShowField="ImnName"
+       Description="Who if any in Legal reviewed this"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianLeaveTravelApp">
+  </Field>
+</Elements>

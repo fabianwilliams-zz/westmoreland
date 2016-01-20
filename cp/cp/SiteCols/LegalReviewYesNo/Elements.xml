@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{00e10a6a-9539-4cc3-9851-15b6e4fa7a01}"
+       Name="LegalReviewYesNo"
+       DisplayName="Has Contract been reviewed by Legal?"
+       StaticName="LegalReviewYesNo"
+       Type="Choice"
+       Description="What is your role for this Event"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

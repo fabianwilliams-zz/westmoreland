@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{3676305c-8fe5-422b-8926-f435ac9d2193}"
+       Name="NationalSexOffenderRegDone"
+       StaticName="NationalSexOffenderRegDone"
+       DisplayName="Is National Sex Offender Document signed and attached?"
+       Type="Choice"
+       Description="Require prior to submitting contract for approval"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

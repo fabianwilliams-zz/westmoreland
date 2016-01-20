@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e9d8dc4e-b260-4390-8951-ef47be0ff8b2}"
+       Name="PreviousCodeDocDone"
+       StaticName="PreviousCodeDocDone"
+       DisplayName="Is Code Document signed and attached?"
+       Type="Choice"
+       Description="Required prior to submitting contract for approval"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>
