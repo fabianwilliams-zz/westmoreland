@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c44b7d3d-2395-4494-adef-eab7af807d5c}"
+       Name="IsDownpaymentRequiredYesNo"
+       DisplayName="Is Downpayment Required?"
+       StaticName="IsDownpaymentRequiredYesNo"
+       Type="Choice"
+       Description="Is it?"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

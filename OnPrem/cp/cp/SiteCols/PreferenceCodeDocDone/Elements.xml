@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8bbe09e1-1384-4321-80da-53d0dd9ecf31}"
+       Name="PreferenceCodeDocDone"
+       StaticName="PreferenceCodeDocDone"
+       DisplayName="Is Preference Code Document signed and attached?"
+       Type="Choice"
+       Description="Required prior to submitting contract for approval"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

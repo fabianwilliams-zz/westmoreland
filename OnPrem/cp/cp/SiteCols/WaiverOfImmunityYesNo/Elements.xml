@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{b4da0867-d272-43a1-bdc7-a1940d29b5b4}"
+       Name="WaiverOfImmunityYesNo"
+       DisplayName="Is there a Waiver Of Immunity?"
+       StaticName="WaiverOfImmunityYesNo"
+       Type="Choice"
+       Description="Is there?"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>No</CHOICE>          
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>No</Default>
+  </Field>
+</Elements>

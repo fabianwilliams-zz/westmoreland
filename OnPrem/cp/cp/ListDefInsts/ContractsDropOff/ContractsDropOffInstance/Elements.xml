@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Contracts Drop Off" OnQuickLaunch="TRUE" TemplateType="101" Url="Lists/ContractsDropOff" Description="Drop Off location for Contracts that will go through the Processing System"></ListInstance>
+</Elements>

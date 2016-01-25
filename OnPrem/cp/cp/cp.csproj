@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7AB88558-7BE6-4686-8F68-ED1F8016DF12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cp</RootNamespace>
+    <AssemblyName>cp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CTs\ContractsCoverSheet\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5ec65718-9551-4756-8af5-26402b10af11}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\ContractProcessFeature\ContractProcessFeature.feature">
+      <FeatureId>{15dad169-1865-49ee-94c5-05984f3c1f84}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="ListDefInsts\ContractsDropOff\ContractsDropOffInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e43be65e-a299-46c4-9972-04325d0af5a3}</SharePointProjectItemId>
+    </None>
+    <None Include="ListDefInsts\ContractsDropOff\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{77d9bdd8-cc32-45ee-b7e0-648e840c7384}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{e9976eec-3ecd-4af7-b274-5efaaf961ca1}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SiteCols\AcquisitionInformation\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e6fd01fe-9ec9-471c-823e-126d67f85285}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\AddendumOrChangeYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{33e44c8b-0e58-4e02-b39f-9ef040ded11c}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ApprovedCapitalProjectYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cae76f4c-5587-43d8-a55a-0af8df5c7fef}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\AutoRenewYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a168c20e-eb46-4b8e-b17a-0f2d4c9d946f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\BuildingPermitYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8fa3db78-d9f8-461c-9d81-032f93873960}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractAmount\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8e85c94f-ec9e-4555-8d96-6792c181607b}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractLength\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{51b5b5cc-01ba-46f2-85cc-d022bd4d063b}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractType\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cc1bbde-e79f-45bc-97b0-9112768de314}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\DownpaymentAmount\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d92840a-9146-4a9f-8ce6-da04bf44280a}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\GLCode\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13eff3df-e6a7-4966-bdbc-4989f80e8de8}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\IsDownpaymentRequiredYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b9387d49-91d8-4d19-ad74-c4cf947ec2b4}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\LegalReviewYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4c5b17a1-0656-475c-a186-fa01a2facded}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\NationalSexOffenderRegDone\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d77d6408-1521-4dc2-8539-486734ae0a15}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PaymentInfoDetail\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cd47ad17-7a39-4e17-8283-6829ef9c4585}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PaymentInfo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8f5dae6e-a8b5-4d3c-afc8-2fac2858ee89}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PONumber\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{67044751-e513-4a71-8915-1f23ac81f98d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\PreferenceCodeDocDone\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{acd906a5-6c92-4fd1-96cd-b4efa2e338c4}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ReviewedInLegalBy\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{175f561b-cf65-4517-bce2-70a3be82e32d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\TargetExecutionDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebbdebc6-7819-4cc6-8be4-cf64e967f490}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\WaiverOfImmunityYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5bcec037-a33b-460c-b6b2-c305e1898c68}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CTs\ContractsCoverSheet\Elements.xml" />
+    <Content Include="Features\ContractProcessFeature\ContractProcessFeature.Template.xml">
+      <DependentUpon>ContractProcessFeature.feature</DependentUpon>
+    </Content>
+    <Content Include="ListDefInsts\ContractsDropOff\ContractsDropOffInstance\Elements.xml" />
+    <Content Include="ListDefInsts\ContractsDropOff\EditDlg.htm" />
+    <Content Include="ListDefInsts\ContractsDropOff\Elements.xml" />
+    <Content Include="ListDefInsts\ContractsDropOff\FileDlg.htm" />
+    <Content Include="ListDefInsts\ContractsDropOff\Repair.aspx" />
+    <Content Include="ListDefInsts\ContractsDropOff\Schema.xml" />
+    <Content Include="ListDefInsts\ContractsDropOff\Upload.aspx" />
+    <Content Include="SiteCols\AcquisitionInformation\Elements.xml" />
+    <Content Include="SiteCols\AddendumOrChangeYesNo\Elements.xml" />
+    <Content Include="SiteCols\ApprovedCapitalProjectYesNo\Elements.xml" />
+    <Content Include="SiteCols\AutoRenewYesNo\Elements.xml" />
+    <Content Include="SiteCols\BuildingPermitYesNo\Elements.xml" />
+    <Content Include="SiteCols\ContractAmount\Elements.xml" />
+    <Content Include="SiteCols\ContractLength\Elements.xml" />
+    <Content Include="SiteCols\ContractType\Elements.xml" />
+    <Content Include="SiteCols\DownpaymentAmount\Elements.xml" />
+    <Content Include="SiteCols\GLCode\Elements.xml" />
+    <Content Include="SiteCols\IsDownpaymentRequiredYesNo\Elements.xml" />
+    <Content Include="SiteCols\LegalReviewYesNo\Elements.xml" />
+    <Content Include="SiteCols\NationalSexOffenderRegDone\Elements.xml" />
+    <Content Include="SiteCols\PaymentInfoDetail\Elements.xml" />
+    <Content Include="SiteCols\PaymentInfo\Elements.xml" />
+    <Content Include="SiteCols\PONumber\Elements.xml" />
+    <Content Include="SiteCols\PreferenceCodeDocDone\Elements.xml" />
+    <Content Include="SiteCols\ReviewedInLegalBy\Elements.xml" />
+    <Content Include="SiteCols\TargetExecutionDate\Elements.xml" />
+    <Content Include="SiteCols\WaiverOfImmunityYesNo\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

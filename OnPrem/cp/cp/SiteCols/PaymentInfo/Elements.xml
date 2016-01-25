@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{d4f74033-6080-46e2-9ce3-9316a50de759}"
+       Name="PaymentInfo"
+       DisplayName="Payment Info"
+       StaticName="PaymentInfo"
+       Type="Choice"
+       Description="Select your choice"
+       Required="TRUE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Monthly</CHOICE>          
+          <CHOICE>Weekly</CHOICE>
+          <CHOICE>Quarterly</CHOICE>
+          <CHOICE>Yearly</CHOICE>
+          <CHOICE>Upon Completion</CHOICE>
+          <CHOICE>Percentage</CHOICE>
+          <CHOICE>As Invoiced</CHOICE>
+          <CHOICE>TBD</CHOICE>
+        </CHOICES>
+        <Default>TBD</Default>
+  </Field>
+</Elements>

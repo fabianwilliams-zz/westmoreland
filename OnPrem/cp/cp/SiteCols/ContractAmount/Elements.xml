@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{bda3a0f0-ee07-4875-9fcb-6c327f3d2114}"
+       Name="ContractAmount"
+       DisplayName="Contract Amount"
+       StaticName="ContractAmount"
+       Type="Number"
+       Description="What is the dollar value of the contract?"
+       Required="TRUE"
+       Sealed="FALSE"
+       Min="1"
+       Max="50000000"
+       Decimals="2"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

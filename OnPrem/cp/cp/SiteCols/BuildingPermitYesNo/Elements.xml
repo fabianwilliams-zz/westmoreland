@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{584287c8-e19a-4785-9f16-ac1bc6dd8e52}"
+       Name="BuildingPermitYesNo"
+       DisplayName="Is there a Building Permit?"
+       StaticName="BuildingPermitYesNo"
+       Type="Choice"
+       Description="Is it?"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP"
+       FillInChoice="FALSE">
+        <CHOICES>
+          <CHOICE>Not Applicable</CHOICE>
+          <CHOICE>No</CHOICE>
+          <CHOICE>Yes</CHOICE>       
+        </CHOICES>
+        <Default>Not Applicable</Default>
+  </Field>
+</Elements>

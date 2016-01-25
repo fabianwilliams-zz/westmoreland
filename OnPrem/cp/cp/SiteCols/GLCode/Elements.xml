@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{1db8e3b6-a87c-4931-86ef-71c273b9ed75}"
+       Name="GLCode"
+       DisplayName="GL Code"
+       StaticName="GLCode"
+       Type="Text"
+       Description="Enter the GL Code if known here"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

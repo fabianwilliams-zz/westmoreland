@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2f1468f3-7224-4759-a9ea-cae0432d82a1}"
+       Name="TargetExecutionDate"
+       DisplayName="Target Execution Date"
+       StaticName="TargetExecutionDate"
+       Description="The date this contract is targetted to begin"
+       Type="DateTime"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

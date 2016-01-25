@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Contracts Drop Off" Direction="$Resources:Direction;" Url="Contracts Drop Off" BaseType="1" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0120D52000827F4F5C4A8A448781A07AA115CA7EF2" Name="Contracts Cover Sheet" Group="1_FabianCP" Description="This Content Type is used by all departments for Contracts Approval Process" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{9df360ca-a775-4e2e-a86c-daaf4d17ac1e}" DisplayName="Has Contract been reviewed by Legal?" Required="TRUE" Description="What is your role for this Event" Name="LegalReviewYesNo" Sealed="FALSE" /><FieldRef ID="{c5c1798b-8657-477a-bcee-42f278741f5f}" DisplayName="Reviewed In Legal By" Required="FALSE" Description="Who if any in Legal reviewed this" Name="ReviewedInLegalBy" Sealed="FALSE" /><FieldRef ID="{4b694b12-0164-420b-a4cc-6a726b7a3454}" DisplayName="Is National Sex Offender Document signed and attached?" Required="TRUE" Description="Require prior to submitting contract for approval" Name="NationalSexOffenderRegDone" Sealed="FALSE" /><FieldRef ID="{8bbe09e1-1384-4321-80da-53d0dd9ecf31}" DisplayName="Is Preference Code Document signed and attached?" Required="TRUE" Description="Required prior to submitting contract for approval" Name="PreferenceCodeDocDone" Sealed="FALSE" /><FieldRef ID="{b4da0867-d272-43a1-bdc7-a1940d29b5b4}" DisplayName="Is there a Waiver Of Immunity?" Required="TRUE" Description="Is there?" Name="WaiverOfImmunityYesNo" Sealed="FALSE" /><FieldRef ID="{0d01f4b2-df8c-4f70-93a9-03fc7893282c}" DisplayName="Is Addendum Or Change? " Required="FALSE" Description="Is it?" Name="AddendumOrChangeYesNo" Sealed="FALSE" /><FieldRef ID="{0caa596b-2d9d-47fd-8620-66e6903589d6}" DisplayName="Is Auto Renew?" Required="FALSE" Description="Is it?" Name="AutoRenewYesNo" Sealed="FALSE" /><FieldRef ID="{ea9f905d-9d2d-47dc-83d9-82845c46cbd8}" DisplayName="Is Approved Capital Project?" Required="FALSE" Description="Is this a Capital Project that has alredy been approved?" Name="ApprovedCapitalProjectYesNo" Sealed="FALSE" /><FieldRef ID="{2aee23cd-0078-4573-a559-29f8ff7a311d}" DisplayName="Acquisition Information" Required="TRUE" Description="Select your Choice" Name="AcquisitionInformation" Sealed="FALSE" /><FieldRef ID="{0939e5b3-ef41-42b0-bc7a-f330082965ca}" DisplayName="Contract Type" Required="TRUE" Description="Select your choice" Name="ContractType" Sealed="FALSE" /><FieldRef ID="{bda3a0f0-ee07-4875-9fcb-6c327f3d2114}" DisplayName="Contract Amount" Required="TRUE" Description="What is the dollar value of the contract?" Name="ContractAmount" Sealed="FALSE" /><FieldRef ID="{af93679a-a619-47f4-850c-019ce4c732ba}" DisplayName="Contract Length" Required="TRUE" Description="Select your choice" Name="ContractLength" Sealed="FALSE" /><FieldRef ID="{d4f74033-6080-46e2-9ce3-9316a50de759}" DisplayName="Payment Info" Required="TRUE" Description="Select your choice" Name="PaymentInfo" Sealed="FALSE" /><FieldRef ID="{00b72bed-cf62-4a5f-a205-edb0ef57a983}" DisplayName="Payment Info Detail" Required="FALSE" Description="Place any notes or comments that will assist us. If payment info is Percent explain: EX:30-40-30" Name="PaymentInfoDetail" NumLines="6" Sealed="FALSE" /><FieldRef ID="{c44b7d3d-2395-4494-adef-eab7af807d5c}" DisplayName="Is Downpayment Required?" Required="TRUE" Description="Is it?" Name="IsDownpaymentRequiredYesNo" Sealed="FALSE" /><FieldRef ID="{5db8b883-0a5d-4cd6-826e-eb9ce5e75a4c}" DisplayName="Downpayment Amount" Required="FALSE" Description="If applicable enter amount here" Name="DownpaymentAmount" Sealed="FALSE" /><FieldRef ID="{2f1468f3-7224-4759-a9ea-cae0432d82a1}" DisplayName="Target Execution Date" Required="FALSE" Description="The date this contract is targetted to begin" Name="TargetExecutionDate" Sealed="FALSE" /><FieldRef ID="{1db8e3b6-a87c-4931-86ef-71c273b9ed75}" DisplayName="GL Code" Required="FALSE" Description="Enter the GL Code if known here" Name="GLCode" Sealed="FALSE" /><FieldRef ID="{4702d691-d500-4bed-bf38-7d88d70db9e3}" DisplayName="PO Number" Required="FALSE" Description="Purchase Number - to be assigned by Procurement/Purchasing" Name="PONumber" Sealed="FALSE" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+      
+      
+      
+      
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" ShowInNewForm="FALSE" ShowInFileDlg="FALSE" DisplayName="$Resources:core,Title;" Sealed="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title"></Field><Field ID="{4b1bf6c6-4f39-45ac-acd5-16fe7a214e5e}" Type="Text" Name="TemplateUrl" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Template_Link;" XName="TemplateUrl" Filterable="TRUE" Sortable="TRUE" Hidden="TRUE" FromBaseType="TRUE" PITarget="mso-infoPathSolution" PIAttribute="href" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="TemplateUrl"></Field><Field ID="{cd1ecb9f-dd4e-4f29-ab9e-e9ff40048d64}" Type="Text" Name="xd_ProgID" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Html_File_Link;" XName="ProgID" Filterable="TRUE" Sortable="TRUE" Hidden="TRUE" FromBaseType="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="xd_ProgID"></Field><Field ID="{fbf29b2d-cae5-49aa-8e0a-29955b540122}" Type="Boolean" Group="_Hidden" Name="xd_Signature" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="xd_Signature" DisplayName="$Resources:core,Xml_signed;" XName="{FBF29B2D-CAE5-49aa-8E0A-29955B540122}" Filterable="TRUE" Sortable="TRUE" Sealed="TRUE" Hidden="TRUE" FromBaseType="TRUE" ReadOnly="TRUE"></Field><Field ID="{e52012a0-51eb-4c0c-8dfb-9b8a0ebedcb6}" ReadOnly="TRUE" Type="Computed" Name="Combine" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Merge;" Filterable="FALSE" Sortable="FALSE" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Combine">
+        <FieldRefs>
+          <FieldRef Name="FSObjType" Key="Primary" />
+          <FieldRef Name="EncodedAbsUrl" />
+          <FieldRef Name="TemplateUrl" />
+        </FieldRefs>
+      </Field><Field ID="{5d36727b-bcb2-47d2-a231-1f0bc63b7439}" ReadOnly="TRUE" Type="Computed" Name="RepairDocument" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Relink;" Filterable="FALSE" Sortable="FALSE" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RepairDocument">
+        <FieldRefs>
+          <FieldRef Name="FSObjType" Key="Primary" />
+          <FieldRef Name="ID" />
+        </FieldRefs>
+      </Field><Field ID="{9df360ca-a775-4e2e-a86c-daaf4d17ac1e}" Name="LegalReviewYesNo" DisplayName="Has Contract been reviewed by Legal?" StaticName="LegalReviewYesNo" Type="Choice" Description="What is your role for this Event" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{c5c1798b-8657-477a-bcee-42f278741f5f}" Name="ReviewedInLegalBy" DisplayName="Reviewed In Legal By" StaticName="ReviewedInLegalBy" Type="User" UserSelectionMode="PeopleOnly" ShowField="ImnName" Description="Who if any in Legal reviewed this" Required="FALSE" Sealed="FALSE" Group="1_FabianLeaveTravelApp"></Field><Field ID="{4b694b12-0164-420b-a4cc-6a726b7a3454}" Name="NationalSexOffenderRegDone" StaticName="NationalSexOffenderRegDone" DisplayName="Is National Sex Offender Document signed and attached?" Type="Choice" Description="Require prior to submitting contract for approval" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{8bbe09e1-1384-4321-80da-53d0dd9ecf31}" Name="PreferenceCodeDocDone" StaticName="PreferenceCodeDocDone" DisplayName="Is Preference Code Document signed and attached?" Type="Choice" Description="Required prior to submitting contract for approval" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{b4da0867-d272-43a1-bdc7-a1940d29b5b4}" Name="WaiverOfImmunityYesNo" DisplayName="Is there a Waiver Of Immunity?" StaticName="WaiverOfImmunityYesNo" Type="Choice" Description="Is there?" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{0d01f4b2-df8c-4f70-93a9-03fc7893282c}" Name="AddendumOrChangeYesNo" DisplayName="Is Addendum Or Change? " StaticName="AddendumOrChangeYesNo" Type="Choice" Description="Is it?" Required="FALSE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{0caa596b-2d9d-47fd-8620-66e6903589d6}" Name="AutoRenewYesNo" DisplayName="Is Auto Renew?" StaticName="AutoRenewYesNo" Type="Choice" Description="Is it?" Required="FALSE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{ea9f905d-9d2d-47dc-83d9-82845c46cbd8}" Name="ApprovedCapitalProjectYesNo" DisplayName="Is Approved Capital Project?" StaticName="ApprovedCapitalProjectYesNo" Type="Choice" Description="Is this a Capital Project that has alredy been approved?" Required="FALSE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{2aee23cd-0078-4573-a559-29f8ff7a311d}" Name="AcquisitionInformation" DisplayName="Acquisition Information" StaticName="AcquisitionInformation" Type="Choice" Description="Select your Choice" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>Undetermined</CHOICE><CHOICE>RFP</CHOICE><CHOICE>Sole Source</CHOICE></CHOICES><Default>Undetermined</Default></Field><Field ID="{0939e5b3-ef41-42b0-bc7a-f330082965ca}" Name="ContractType" DisplayName="Contract Type" StaticName="ContractType" Type="Choice" Description="Select your choice" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>Accounting/Finance</CHOICE><CHOICE>Architect</CHOICE><CHOICE>Capital Outlay</CHOICE><CHOICE>Caterers</CHOICE><CHOICE>Communications</CHOICE><CHOICE>Contractors</CHOICE><CHOICE>Engineers</CHOICE><CHOICE>Equipment</CHOICE><CHOICE>Lease</CHOICE><CHOICE>Legal</CHOICE><CHOICE>Performers</CHOICE><CHOICE>Services</CHOICE><CHOICE>Supplies</CHOICE><CHOICE>Tutors</CHOICE><CHOICE>TBD</CHOICE></CHOICES><Default>TBD</Default></Field><Field ID="{bda3a0f0-ee07-4875-9fcb-6c327f3d2114}" Name="ContractAmount" DisplayName="Contract Amount" StaticName="ContractAmount" Type="Number" Description="What is the dollar value of the contract?" Required="TRUE" Sealed="FALSE" Min="1" Max="50000000" Decimals="2" Group="1_FabianCP"></Field><Field ID="{af93679a-a619-47f4-850c-019ce4c732ba}" Name="ContractLength" DisplayName="Contract Length" StaticName="ContractLength" Type="Choice" Description="Select your choice" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>Single Project</CHOICE><CHOICE>Upon sign off</CHOICE><CHOICE>1 year</CHOICE><CHOICE>2 year</CHOICE><CHOICE>3 year</CHOICE><CHOICE>4 year</CHOICE><CHOICE>5 year</CHOICE><CHOICE>TBD</CHOICE></CHOICES><Default>TBD</Default></Field><Field ID="{d4f74033-6080-46e2-9ce3-9316a50de759}" Name="PaymentInfo" DisplayName="Payment Info" StaticName="PaymentInfo" Type="Choice" Description="Select your choice" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>Monthly</CHOICE><CHOICE>Weekly</CHOICE><CHOICE>Quarterly</CHOICE><CHOICE>Yearly</CHOICE><CHOICE>Upon Completion</CHOICE><CHOICE>Percentage</CHOICE><CHOICE>As Invoiced</CHOICE><CHOICE>TBD</CHOICE></CHOICES><Default>TBD</Default></Field><Field ID="{00b72bed-cf62-4a5f-a205-edb0ef57a983}" Name="PaymentInfoDetail" DisplayName="Payment Info Detail" StaticName="PaymentInfoDetail" Description="Place any notes or comments that will assist us. If payment info is Percent explain: EX:30-40-30" Type="Note" RichText="TRUE" RichTextMode="Compatible" NumLines="6" Required="FALSE" Sealed="FALSE" Group="1_FabianCP"></Field><Field ID="{c44b7d3d-2395-4494-adef-eab7af807d5c}" Name="IsDownpaymentRequiredYesNo" DisplayName="Is Downpayment Required?" StaticName="IsDownpaymentRequiredYesNo" Type="Choice" Description="Is it?" Required="TRUE" Sealed="FALSE" Group="1_FabianCP" FillInChoice="FALSE"><CHOICES><CHOICE>No</CHOICE><CHOICE>Yes</CHOICE></CHOICES><Default>No</Default></Field><Field ID="{5db8b883-0a5d-4cd6-826e-eb9ce5e75a4c}" Name="DownpaymentAmount" DisplayName="Downpayment Amount" StaticName="DownpaymentAmount" Type="Number" Description="If applicable enter amount here" Required="TRUE" Sealed="FALSE" Min="1" Max="50000000" Decimals="2" Group="1_FabianCP"></Field><Field ID="{2f1468f3-7224-4759-a9ea-cae0432d82a1}" Name="TargetExecutionDate" DisplayName="Target Execution Date" StaticName="TargetExecutionDate" Description="The date this contract is targetted to begin" Type="DateTime" Required="FALSE" Sealed="FALSE" Group="1_FabianCP"></Field><Field ID="{1db8e3b6-a87c-4931-86ef-71c273b9ed75}" Name="GLCode" DisplayName="GL Code" StaticName="GLCode" Type="Text" Description="Enter the GL Code if known here" Required="FALSE" Sealed="FALSE" Group="1_FabianCP"></Field><Field ID="{4702d691-d500-4bed-bf38-7d88d70db9e3}" Name="PONumber" DisplayName="PO Number" StaticName="PONumber" Type="Text" Description="Purchase Number - to be assigned by Procurement/Purchasing" Required="FALSE" Sealed="FALSE" Group="1_FabianCP"></Field><Field ID="{CBB92DA4-FD46-4C7D-AF6C-3128C2A5576E}" Indexed="FALSE" Name="DocumentSetDescription" StaticName="DocumentSetDescription" SourceID="http://schemas.microsoft.com/sharepoint/v3" Group="_Hidden" DisplayName="$Resources:dlccore,DocumentSetDescription_DisplayName;" Description="$Resources:dlccore,DocumentSetDescription_Description;" Type="Note" NumLines="5" UnlimitedLengthInDocumentLibrary="TRUE" Hidden="FALSE" Required="FALSE" CanToggleHidden="TRUE" Sealed="TRUE" ShowInEditForm="TRUE" ShowInNewForm="TRUE" /></Fields>
+    <Views>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE" FreeForm="TRUE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <Toolbar Position="After" Type="Freeform">
+          <IfHasRights>
+            <RightsChoices>
+              <RightsGroup PermAddListItems="required" />
+            </RightsChoices>
+            <Then>
+              <HTML><![CDATA[<div class="tb"><img src="/_layouts/15/images/caladd.gif?rev=23" alt="" />&#160;<a class="ms-addnew" id="idAddNewDoc" href="]]></HTML>
+              <HttpVDir />
+              <HTML><![CDATA[/_layouts/15/Upload.aspx?List=]]></HTML>
+              <ListProperty Select="Name" />
+              <HTML><![CDATA[&RootFolder=]]></HTML>
+              <GetVar Name="RootFolder" URLEncode="TRUE" />
+              <HTML><![CDATA[" onclick="javascript:NewItem(']]></HTML>
+              <ScriptQuote NotAddingQuote="TRUE">
+                <HttpVDir />
+              </ScriptQuote>
+              <HTML><![CDATA[/_layouts/15/Upload.aspx?List=]]></HTML>
+              <ListProperty Select="Name" />
+              <HTML><![CDATA[&RootFolder=]]></HTML>
+              <GetVar Name="RootFolder" URLEncode="TRUE" />
+              <HTML><![CDATA[', true);javascript:return false;" target="_self">]]></HTML>
+              <HTML>$Resources:core,Add_New_Document;</HTML>
+              <HTML><![CDATA[</a></div>]]></HTML>
+            </Then>
+          </IfHasRights>
+        </Toolbar>
+        <ViewFields>
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilenameNoMenu"></FieldRef><FieldRef Name="Editor"></FieldRef></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto)" />
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,Add_New_Document)" />
+          <ParameterBinding Name="MoreAnnouncements" Location="Resource(wss,MoreDocuments)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,All_Documents;" DefaultView="TRUE" MobileView="True" MobileDefaultView="True" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/dlicon.png?rev=23" Url="Forms/AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">60</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilename"></FieldRef><FieldRef Name="Modified"></FieldRef><FieldRef Name="Editor"></FieldRef><FieldRef Name="LegalReviewYesNo" /><FieldRef Name="ReviewedInLegalBy" /><FieldRef Name="NationalSexOffenderRegDone" /><FieldRef Name="PreferenceCodeDocDone" /><FieldRef Name="WaiverOfImmunityYesNo" /><FieldRef Name="AddendumOrChangeYesNo" /><FieldRef Name="AutoRenewYesNo" /><FieldRef Name="ApprovedCapitalProjectYesNo" /><FieldRef Name="AcquisitionInformation" /><FieldRef Name="ContractType" /><FieldRef Name="ContractAmount" /><FieldRef Name="ContractLength" /><FieldRef Name="PaymentInfo" /><FieldRef Name="PaymentInfoDetail" /><FieldRef Name="IsDownpaymentRequiredYesNo" /><FieldRef Name="DownpaymentAmount" /><FieldRef Name="TargetExecutionDate" /><FieldRef Name="GLCode" /><FieldRef Name="PONumber" /><FieldRef Name="DocumentSetDescription" /></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto2)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="FileLeafRef" /></OrderBy>
+        </Query>
+      </View><View BaseViewID="2" Type="HTML" FileDialog="TRUE" TabularView="FALSE" DisplayName="$Resources:core,File_Dialog_View;" Hidden="TRUE" Path="filedlg.htm" ModerationType="Moderator">
+        <Toolbar Type="Standard" />
+        <ViewFields>
+          
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="BaseName"></FieldRef><FieldRef Name="Editor" TextOnly="TRUE"></FieldRef><FieldRef Name="Modified" TextOnly="TRUE"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+            
+          <FieldRef Name="FSObjType" Key="Primary" /><FieldRef Name="FileLeafRef" /></OrderBy>
+        </Query>
+      </View><View BaseViewID="3" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Explorer_View;" TabularView="FALSE" Url="Forms/WebFldr.aspx" SetupPath="pages\webfldr.aspx" RequiresClientIntegration="TRUE" ReadOnly="TRUE">
+        <Toolbar Type="Standard" />
+        <XslLink>main.xsl</XslLink>
+        <ViewFields />
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" />
+        </ParameterBindings>
+      <Query /></View><View BaseViewID="50" Type="HTML" MobileView="TRUE" TabularView="TRUE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">15</RowLimit>
+        <ViewFields>
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilename"></FieldRef></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto2)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+      </View><View BaseViewID="6" Type="HTML" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilename"></FieldRef><FieldRef Name="Editor"></FieldRef></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto2)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+      </View><View BaseViewID="7" AggregateView="TRUE" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Merge_Documents;" TabularView="FALSE" ToolbarTemplate="MergeToolBar" DefaultView="FALSE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/dlicon.png?rev=23" Url="Forms/Combine.aspx" Hidden="TRUE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilename"></FieldRef><FieldRef Name="Combine"></FieldRef><FieldRef Name="Modified"></FieldRef><FieldRef Name="Editor"></FieldRef></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto2)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="FileLeafRef" /></OrderBy>
+        </Query>
+      </View><View BaseViewID="9" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,Relink_Documents;" ToolbarTemplate="RelinkToolBar" TabularView="FALSE" DefaultView="FALSE" Url="Forms/repair.aspx" ImageUrl="/_layouts/15/images/dlicon.png?rev=23" Hidden="TRUE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+          
+          
+          
+          
+          
+          
+        <FieldRef Name="DocIcon"></FieldRef><FieldRef Name="LinkFilenameNoMenu"></FieldRef><FieldRef Name="RepairDocument"></FieldRef><FieldRef Name="Modified"></FieldRef><FieldRef Name="Editor"></FieldRef><FieldRef Name="ContentType"></FieldRef><FieldRef Name="TemplateUrl"></FieldRef></ViewFields>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noitemsinview_doclibrary)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noitemsinview_doclibrary_howto2)" />
+        </ParameterBindings>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="FileLeafRef" /></OrderBy>
+          <Where>
+            <Neq>
+              <FieldRef Name="xd_Signature" />
+              <Value Type="Boolean">1</Value>
+            </Neq>
+          </Where>
+        </Query>
+      </View><View BaseViewID="40" Type="HTML" WebPartZoneID="Main" DisplayName="assetLibTemp" DefaultView="FALSE" MobileView="FALSE" MobileDefaultView="FALSE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/dlicon.png?rev=23" Url="Forms/Thumbnails.aspx" Hidden="TRUE">
+        <Toolbar Type="Standard" />
+        <ViewFields>
+          
+        <FieldRef Name="LinkFilename"></FieldRef></ViewFields>
+        <RowLimit>20</RowLimit>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="LinkFilename" /></OrderBy>
+        </Query>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" SetupPath="pages\form.aspx" Url="Forms/DispForm.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" SetupPath="pages\form.aspx" Url="Forms/EditForm.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="Forms/Upload.aspx" WebPartZoneID="Main" />
+      <Form Type="NewFormDialog" Path="EditDlg.htm">
+        <ListFormOpening>
+          <HTML><![CDATA[
+<script type="text/javascript">
+var frm = new OWSForm(]]></HTML>
+          <ScriptQuote>
+            <Switch>
+              <Expr>
+                <GetVar Name="HTMLFormName" />
+              </Expr>
+              <Case Value="">
+                <HTML><![CDATA[OWSForm]]></HTML>
+              </Case>
+              <Default>
+                <GetVar Name="HTMLFormName" />
+              </Default>
+            </Switch>
+          </ScriptQuote>
+          <HTML><![CDATA[, false, ]]></HTML>
+          <ScriptQuote>
+            <HttpVDir />
+            <HTML>/_layouts/</HTML>
+          </ScriptQuote>
+          <HTML><![CDATA[);
+</script>
+]]></HTML>
+          <HTML><![CDATA[
+<script type="text/javascript">]]></HTML>
+          <HTML><![CDATA[ frm.dopt.chDateSep = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="29" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.dopt.chTimeSep = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="30" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.dopt.SetTimeFormat(]]></HTML>
+          <ProjectProperty Select="Time24" />
+          <HTML><![CDATA[); frm.dopt.SetDateOrder(]]></HTML>
+          <LocaleInfo LCTYPE="33" />
+          <HTML><![CDATA[); frm.dopt.SetDOW(]]></HTML>
+          <LocaleInfo LCTYPE="4108" />
+          <HTML><![CDATA[); frm.dopt.stAM = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="40" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.dopt.stPM = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="41" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.dopt.TimeMarkPosn = ]]></HTML>
+          <LocaleInfo LCTYPE="4101" />
+          <HTML><![CDATA[; frm.dopt.webTZOffsetMin = ]]></HTML>
+          <ProjectProperty Select="TimeZoneBias" />
+          <HTML><![CDATA[; ]]></HTML>
+          <HTML><![CDATA[ frm.nopt.chDigSep = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="15" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.nopt.chDecimal = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="14" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.nopt.chMinus = ]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="81" />
+          </ScriptQuote>
+          <HTML><![CDATA[; frm.nopt.iNegNumber = ]]></HTML>
+          <LocaleInfo LCTYPE="4112" />
+          <HTML><![CDATA[; frm.nopt.SetGrouping(]]></HTML>
+          <ScriptQuote>
+            <LocaleInfo LCTYPE="16" />
+          </ScriptQuote>
+          <HTML><![CDATA[); ]]></HTML>
+          <HTML><![CDATA[
+frm.stFieldPrefix = ]]></HTML>
+          <ScriptQuote>
+            <FieldPrefix />
+          </ScriptQuote>
+          <HTML><![CDATA[;
+frm.stImagesPath = ]]></HTML>
+          <ScriptQuote>/_layouts/15/images/</ScriptQuote>
+          <HTML><![CDATA[;
+frm.wBaseType = ]]></HTML>
+          <ListProperty Select="BaseType" />
+          <HTML><![CDATA[;
+</script>]]></HTML>
+          <Switch>
+            <Expr>
+              <GetVar Name="HTMLFormName" />
+            </Expr>
+            <Case Value="">
+              <HTML><![CDATA[<form name="OWSForm" id="OWSForm" EncType="multipart/form-data" Action="]]></HTML>
+              <HttpPath />
+              <HTML><![CDATA[" Method=POST onSubmit="return false;">]]></HTML>
+            </Case>
+          </Switch>
+          <HTML><![CDATA[
+<input type="Hidden" name="_charset_" value="utf-8">
+<input id="onetidCmd" type="Hidden" name="Cmd" value="Save">
+<input id="onetidIsFormValid" type="hidden" name="IsFormValid">
+<input id="onetidFormWasPosted" type="hidden" name="FormWasPosted">
+<input id="MustUpdateForm" type="hidden" name="MustUpdateForm" value="true">
+<input type="hidden" name="NextID" id="NextID" value="-1">
+<input type="hidden" name="NextUsing" id="NextUsing" value="]]></HTML>
+          <GetVar Name="Source" HTMLEncode="TRUE" />
+          <HTML><![CDATA[">
+]]></HTML>
+          <HTML><![CDATA[<span id='part1'>]]></HTML>
+          <Identity />
+        </ListFormOpening>
+        <ListFormBody>
+          <HTML><![CDATA[<table border="0" cellpadding="2">
+<script type="text/javascript">var _g_tp_fNewForm = true;</script>
+]]></HTML>
+          <Fields>
+            <Switch>
+              <Expr>
+                <Property Select="Name" />
+              </Expr>
+              <Case Value="FileLeafRef">
+                <SetVar Name="ShowField" Scope="Request">0</SetVar>
+              </Case>
+              <Default>
+                <SetVar Name="ShowField" Scope="Request">1</SetVar>
+                <HTML><![CDATA[<tr style="display:none"><th nowrap="nowrap" valign="top" class="ms-formlabel"><nobr>]]></HTML>
+                <Property Select="DisplayName" HTMLEncode="TRUE" AutoNewLine="TRUE" />
+                <Switch>
+                  <Expr>
+                    <Property Select="Required" />
+                  </Expr>
+                  <Case Value="TRUE">
+                    <HTML><![CDATA[<font color=red> *</font>]]></HTML>
+                    <SetVar Scope="Request" Name="HasRequired">TRUE</SetVar>
+                  </Case>
+                  <Default>
+                    <HTML><![CDATA[<font color=red></font>]]></HTML>
+                  </Default>
+                </Switch>
+                <HTML><![CDATA[</nobr></th><td class="ms-formbody">]]></HTML>
+                <Field />
+                <Switch>
+                  <Expr>
+                    <Property Select="RichText" />
+                  </Expr>
+                  <Case Value="TRUE" />
+                  <Default>
+                    <Switch>
+                      <Expr>
+                        <Property Select="Type" />
+                      </Expr>
+                      <Case Value="Choice" />
+                      <Case Value="MultiChoice" />
+                      <Default>
+                        <HTML><![CDATA[&#160;]]></HTML>
+                        <Switch>
+                          <Expr>
+                            <Property Select="NoEditFormBreak" />
+                          </Expr>
+                          <Case Value="TRUE" />
+                          <Default>
+                            <HTML><![CDATA[<br>]]></HTML>
+                          </Default>
+                        </Switch>
+                      </Default>
+                    </Switch>
+                  </Default>
+                </Switch>
+                <HTML><![CDATA[<span class="ms-formdescription">]]></HTML>
+                <Property Select="Description" HTMLEncode="TRUE" AutoHyperLink="TRUE" AutoNewLine="TRUE" />
+                <HTML><![CDATA[</span></td></tr>]]></HTML>
+              </Default>
+            </Switch>
+          </Fields>
+          <HTML><![CDATA[</table>]]></HTML>
+          <Switch>
+            <Expr>
+              <GetVar Name="HasRequired" />
+            </Expr>
+            <Case Value="TRUE">
+              <HTML><![CDATA[
+          <table border="0" cellpadding="2">
+          <tr>
+            <td id="reqdFldTxt" class="ms-descriptiontext" colspan="2" height="150px" valign="top"><br><font color=red>*</font> 
+             &#160;]]></HTML>
+              <HTML HTMLEncode="TRUE">$Resources:core,webview_editdlg_required_field;</HTML>
+              <HTML><![CDATA[
+            </td>
+          </tr>
+          </table>
+          ]]></HTML>
+            </Case>
+          </Switch>
+          <ContentTypes>
+            <HTML><![CDATA[
+    <script type = "text/javascript">
+        frmCurrent.MapCtName(]]></HTML>
+            <ScriptQuote>
+              <Property Select="Name" />
+            </ScriptQuote>
+            <HTML><![CDATA[ ,]]></HTML>
+            <ScriptQuote>
+              <Property Select="ID" />
+            </ScriptQuote>
+            <HTML><![CDATA[);
+    </script>]]></HTML>
+            <IfSubString>
+              <Expr1>0x0120</Expr1>
+              <Expr2>
+                <Property Select="ID" />
+              </Expr2>
+              <Then>
+                <HTML><![CDATA[
+            <script type="text/javascript">
+            _tp_rgctfld = new Array;
+            _g_tp_rgcts.push(_tp_rgctfld);
+            var fldct = frmCurrent.FindField("ContentType");
+            if (fldct != null)
+            	fldct.AddChoice(]]></HTML>
+                <ScriptQuote>
+                  <Property Select="Name" />
+                </ScriptQuote>
+                <HTML><![CDATA[);
+            </script>
+            ]]></HTML>
+              </Then>
+              <Else>
+                <HTML><![CDATA[
+            <script type="text/javascript">
+            var fldct = frmCurrent.FindField("ContentType");
+            if (fldct != null)
+            	fldct.AddChoice(]]></HTML>
+                <ScriptQuote>
+                  <Property Select="Name" />
+                </ScriptQuote>
+                <HTML><![CDATA[);
+            _tp_rgctfld = new Array;            
+            ]]></HTML>
+                <ForEach Select="FieldRefs/FieldRef">
+                  <HTML>
+                _tp_ctfld = new Object(null);
+                _tp_ctfld.stName=</HTML>
+                  <ScriptQuote>
+                    <Property Select="Name" />
+                  </ScriptQuote>
+                  <HTML>;
+                _tp_ctfld.fRequired = BoolFromString(</HTML>
+                  <ScriptQuote>
+                    <Property Select="Required" />
+                  </ScriptQuote>
+                  <HTML>);
+                _tp_ctfld.fHidden = BoolFromString(</HTML>
+                  <ScriptQuote>
+                    <Property Select="Hidden" />
+                  </ScriptQuote>
+                  <HTML>);
+                _tp_ctfld.fShowInNewForm = BoolFromString2(</HTML>
+                  <ScriptQuote>
+                    <Property Select="ShowInNewForm" />
+                  </ScriptQuote>
+                  <HTML>, true);
+                _tp_ctfld.fShowInEditForm = BoolFromString2(</HTML>
+                  <ScriptQuote>
+                    <Property Select="ShowInEditForm" />
+                  </ScriptQuote>
+                  <HTML>, true);
+                _tp_ctfld.fShowInFileDlg = BoolFromString2(</HTML>
+                  <ScriptQuote>
+                    <Property Select="ShowInFileDlg" />
+                  </ScriptQuote>
+                  <HTML>, true);                
+                _tp_ctfld.fReadOnly = BoolFromString(</HTML>
+                  <ScriptQuote>
+                    <Property Select="ReadOnly" />
+                  </ScriptQuote>
+                  <HTML>);
+                _tp_ctfld.stDisplay =</HTML>
+                  <ScriptQuote>
+                    <Property Select="DisplayName" />
+                  </ScriptQuote>
+                  <HTML>;</HTML>
+                  <ForEach Select="Default">
+                    <HTML>
+                    _tp_ctfld.stDefault=</HTML>
+                    <ScriptQuote>
+                      <Property Select="." />
+                    </ScriptQuote>
+                    <HTML>;</HTML>
+                  </ForEach>
+                  <HTML>
+                    _tp_rgctfld.push(_tp_ctfld);
+                </HTML>
+                </ForEach>
+                <HTML><![CDATA[
+            _g_tp_rgcts.push(_tp_rgctfld);
+            </script>
+            ]]></HTML>
+              </Else>
+            </IfSubString>
+          </ContentTypes>
+          <HTML><![CDATA[
+<script type="text/javascript">
+var fldct = frmCurrent.FindField("ContentType");
+if (fldct != null)
+	fldct.BuildUI();
+</script>
+]]></HTML>
+        </ListFormBody>
+        <ListFormClosing>
+          <HTML><![CDATA[
+</span>]]></HTML>
+          <Switch>
+            <Expr>
+              <GetVar Name="HTMLFormName" />
+            </Expr>
+            <Case Value="">
+              <HTML><![CDATA[</form>]]></HTML>
+            </Case>
+          </Switch>
+          <HTML><![CDATA[
+<script type="text/javascript">
+</script>
+]]></HTML>
+        </ListFormClosing>
+      </Form>
+    </Forms>
+  </MetaData>
+</List>
