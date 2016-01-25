@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="53b41d09-e23d-4359-9cb0-cc632fcd785b" description="SharePoint App Feature" featureId="53b41d09-e23d-4359-9cb0-cc632fcd785b" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="cp Feature1" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="53b41d09-e23d-4359-9cb0-cc632fcd785b" description="Solution that creates the site columns, content type, and list definiton and instnce for the contracts process flow used by the Workflow engine. For questions or comments, please contact Fabian Williams @fabianwilliams of Planet Technologies" featureId="53b41d09-e23d-4359-9cb0-cc632fcd785b" imageUrl="" solutionId="00000000-0000-0000-0000-000000000000" title="1FW Contracts Drop Box" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel">
   <projectItems>
     <projectItemReference itemId="2ba12afa-afc0-4a6b-b7c7-52dc9bcecf66" />
     <projectItemReference itemId="6d853cc1-d2e2-4110-8dff-56ae9c9fd5d3" />
@@ -21,5 +21,12 @@
     <projectItemReference itemId="7814fea5-dc07-4e9d-829b-90dce57eb514" />
     <projectItemReference itemId="ad205a58-ad91-4457-8173-41e1355277e4" />
     <projectItemReference itemId="f5e673dd-99bb-4796-92fd-2066ea11b35d" />
+    <projectItemReference itemId="4d73b8d2-102c-4cf7-819b-a6acc809e12d" />
+    <projectItemReference itemId="724ac410-4383-45bb-a173-4e7866864ae6" />
+    <projectItemReference itemId="94e61500-ad84-4e54-8d0d-4828a42ec081" />
+    <projectItemReference itemId="d05357ab-d36b-421f-abbb-580d843c6d7b" />
+    <projectItemReference itemId="ef58d1d2-b2d4-4b03-a1c1-6d1fe3a73d11" />
+    <projectItemReference itemId="6164d9af-9786-4b8f-8e5d-58e0cded9b16" />
+    <projectItemReference itemId="3eba410e-a59e-4364-acc4-543a93dd7986" />
   </projectItems>
 </feature>

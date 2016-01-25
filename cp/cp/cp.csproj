@@ -43,22 +43,47 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="CTs\ContractsCoverSheet\Elements.xml" />
+    <Content Include="ListLibs\ContractsDropBox\ContractsDropBoxInstance\Elements.xml" />
+    <Content Include="ListLibs\ContractsDropBox\Elements.xml" />
+    <Content Include="ListLibs\ContractsDropBox\Schema.xml" />
     <Content Include="SiteCols\AcquisitionInformation\Elements.xml" />
-    <Content Include="SiteCols\AddendumOrChangeYesNo\Elements.xml" />
+    <Content Include="SiteCols\AddendumOrChangeYesNo\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="SiteCols\ApprovedCapitalProjectYesNo\Elements.xml" />
     <Content Include="SiteCols\AutoRenewYesNo\Elements.xml" />
-    <Content Include="SiteCols\ContractAmount\Elements.xml" />
+    <Content Include="SiteCols\BuildingPermitYesNo\Elements.xml" />
+    <Content Include="SiteCols\ContractAmount\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="SiteCols\ContractLength\Elements.xml" />
     <Content Include="SiteCols\ContractType\Elements.xml" />
-    <Content Include="SiteCols\DownpaymentAmount\Elements.xml" />
-    <Content Include="SiteCols\IsDownpaymentRequiredYesNo\Elements.xml" />
+    <Content Include="SiteCols\DownpaymentAmount\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SiteCols\GLCode\Elements.xml" />
+    <Content Include="SiteCols\IsDownpaymentRequiredYesNo\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="SiteCols\LegalReviewYesNo\Elements.xml" />
     <Content Include="SiteCols\NationalSexOffenderRegDone\Elements.xml" />
     <Content Include="SiteCols\PaymentInfoDetail\Elements.xml" />
     <Content Include="SiteCols\PaymentInfo\Elements.xml" />
+    <Content Include="SiteCols\PONumber\Elements.xml" />
     <Content Include="SiteCols\PreferenceCodeDocDone\Elements.xml" />
     <Content Include="SiteCols\ReviewedInLegalBy\Elements.xml" />
+    <Content Include="SiteCols\TargetExecutionDate\Elements.xml" />
     <Content Include="SiteCols\WaiverOfImmunityYesNo\Elements.xml" />
+    <None Include="CTs\ContractsCoverSheet\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef58d1d2-b2d4-4b03-a1c1-6d1fe3a73d11}</SharePointProjectItemId>
+    </None>
+    <None Include="ListLibs\ContractsDropBox\ContractsDropBoxInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6164d9af-9786-4b8f-8e5d-58e0cded9b16}</SharePointProjectItemId>
+    </None>
+    <None Include="ListLibs\ContractsDropBox\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3eba410e-a59e-4364-acc4-543a93dd7986}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2ba12afa-afc0-4a6b-b7c7-52dc9bcecf66}</SharePointProjectItemId>
@@ -77,6 +102,9 @@
     <None Include="SiteCols\AutoRenewYesNo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{02af173b-a28c-479f-aaa7-8124350891cb}</SharePointProjectItemId>
     </None>
+    <None Include="SiteCols\BuildingPermitYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d05357ab-d36b-421f-abbb-580d843c6d7b}</SharePointProjectItemId>
+    </None>
     <None Include="SiteCols\ContractAmount\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2c750dc4-e0a3-4216-9c21-25ebd914f596}</SharePointProjectItemId>
     </None>
@@ -88,6 +116,9 @@
     </None>
     <None Include="SiteCols\DownpaymentAmount\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f5e673dd-99bb-4796-92fd-2066ea11b35d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\GLCode\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{724ac410-4383-45bb-a173-4e7866864ae6}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\IsDownpaymentRequiredYesNo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{ad205a58-ad91-4457-8173-41e1355277e4}</SharePointProjectItemId>
@@ -104,11 +135,17 @@
     <None Include="SiteCols\PaymentInfo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e9432b0b-44da-47bd-91b4-ed468a7075be}</SharePointProjectItemId>
     </None>
+    <None Include="SiteCols\PONumber\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{94e61500-ad84-4e54-8d0d-4828a42ec081}</SharePointProjectItemId>
+    </None>
     <None Include="SiteCols\PreferenceCodeDocDone\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{a09a1756-db51-4654-a973-30da275fff96}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\ReviewedInLegalBy\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2f1b2404-4485-4ac3-96e8-b4c8b33f2a2f}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\TargetExecutionDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4d73b8d2-102c-4cf7-819b-a6acc809e12d}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\WaiverOfImmunityYesNo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{65c81c4d-6015-4296-9d62-abf00256cd18}</SharePointProjectItemId>
@@ -161,10 +198,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CTs\" />
-    <Folder Include="ListLibs\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
