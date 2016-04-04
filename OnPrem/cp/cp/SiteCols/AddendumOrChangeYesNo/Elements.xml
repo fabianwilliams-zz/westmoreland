@@ -6,7 +6,7 @@
        DisplayName="Is Addendum Or Change? " 
        StaticName="AddendumOrChangeYesNo"
        Type="Choice"
-       Description="Is it?"
+       Description="Is this an addendum or changer order?"
        Required="FALSE"
        Sealed="FALSE"
        Group="1_FabianCP"

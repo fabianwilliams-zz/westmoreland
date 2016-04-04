@@ -22,6 +22,12 @@
       <FieldRef ID="{2f1468f3-7224-4759-a9ea-cae0432d82a1}" DisplayName="Target Execution Date" Required="FALSE" Description="The date this contract is targetted to begin" Name="TargetExecutionDate" Sealed="FALSE" />
       <FieldRef ID="{1db8e3b6-a87c-4931-86ef-71c273b9ed75}" DisplayName="GL Code" Required="FALSE" Description="Enter the GL Code if known here" Name="GLCode" Sealed="FALSE" />
       <FieldRef ID="{4702d691-d500-4bed-bf38-7d88d70db9e3}" DisplayName="PO Number" Required="FALSE" Description="Purchase Number - to be assigned by Procurement/Purchasing" Name="PONumber" Sealed="FALSE" />
+      <FieldRef ID="{2e19e82f-554a-42a8-8edb-ee9b21362227}" DisplayName="Contract Actual Start Date" Required="FALSE" Description="Actual date this contract started" Name="ContractActualStartDate" Sealed="FALSE" />
+      <FieldRef ID="{8fc4eaef-e924-4ad7-8ebd-8c8372b340b6}" DisplayName="Contract End Date" Required="FALSE" Description="The date this contract is scheduled to end" Name="ContractEndDate" Sealed="FALSE" />
+      <FieldRef ID="{d9857453-8403-4c84-9414-e682819203eb}" DisplayName="Is a Related Party" Required="FALSE" Description="Is it?" Name="RelatedPartyYesNo" Sealed="FALSE" />
+      <FieldRef ID="{678d0b1d-39e9-47a7-89db-a7e02ea47880}" DisplayName="Related Party Selection" Required="FALSE" Description="Select the Related Party?" Name="RelatedPartySelection" Sealed="FALSE" />
+      <FieldRef ID="{64ed0900-8215-43cd-aa72-85b450c00ee0}" DisplayName="Is Sole Sourced Justification Attached" Required="FALSE" Description="Is it?" Name="SoleSourcedAttachedYesNo" Sealed="FALSE" />
+      <FieldRef ID="{668fc682-7ca2-44d7-9216-557586cfd598}" DisplayName="Is RFP Attached?" Required="FALSE" Description="Is it?" Name="RFPAttachedYesNo" Sealed="FALSE" />
     </FieldRefs>
   </ContentType>
 </Elements>

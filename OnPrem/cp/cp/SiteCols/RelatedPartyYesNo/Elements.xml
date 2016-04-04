@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
   <Field
-       ID="{0caa596b-2d9d-47fd-8620-66e6903589d6}"
-       Name="AutoRenewYesNo"
-       DisplayName="Is Auto Renew?"
-       StaticName="AutoRenewYesNo"
+       ID="{d9857453-8403-4c84-9414-e682819203eb}"
+       Name="RelatedPartyYesNo"
+       DisplayName="Is a Related Party"
+       StaticName="RelatedPartyYesNo"
        Type="Choice"
-       Description="Is this contract an automatically renewing"
+       Description="Is it?"
        Required="FALSE"
        Sealed="FALSE"
        Group="1_FabianCP"

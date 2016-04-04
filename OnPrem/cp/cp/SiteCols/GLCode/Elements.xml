@@ -6,7 +6,7 @@
        DisplayName="GL Code"
        StaticName="GLCode"
        Type="Text"
-       Description="Enter the GL Code if known here"
+       Description="Account Code to be charged"
        Required="FALSE"
        Sealed="FALSE"
        Group="1_FabianCP">

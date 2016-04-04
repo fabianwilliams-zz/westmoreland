@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{2e19e82f-554a-42a8-8edb-ee9b21362227}"
+       Name="ContractActualStartDate"
+       DisplayName="Contract Actual Start Date"
+       StaticName="ContractActualStartDate"
+       Description="Actual date this contract started"
+       Type="DateTime"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>

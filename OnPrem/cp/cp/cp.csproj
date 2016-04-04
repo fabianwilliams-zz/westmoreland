@@ -87,8 +87,14 @@
     <None Include="SiteCols\BuildingPermitYesNo\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8fa3db78-d9f8-461c-9d81-032f93873960}</SharePointProjectItemId>
     </None>
+    <None Include="SiteCols\ContractActualStartDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5e1fc373-d875-4bb3-ad9a-5fc13d6544be}</SharePointProjectItemId>
+    </None>
     <None Include="SiteCols\ContractAmount\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8e85c94f-ec9e-4555-8d96-6792c181607b}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\ContractEndDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8312c93e-a1ad-4040-a0bd-bc79bf8293f7}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\ContractLength\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{51b5b5cc-01ba-46f2-85cc-d022bd4d063b}</SharePointProjectItemId>
@@ -98,6 +104,9 @@
     </None>
     <None Include="SiteCols\DownpaymentAmount\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6d92840a-9146-4a9f-8ce6-da04bf44280a}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\DownpaymentDueDate\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c460eb0e-d41e-4804-95c5-e8482d9d9a76}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\GLCode\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{13eff3df-e6a7-4966-bdbc-4989f80e8de8}</SharePointProjectItemId>
@@ -123,8 +132,20 @@
     <None Include="SiteCols\PreferenceCodeDocDone\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{acd906a5-6c92-4fd1-96cd-b4efa2e338c4}</SharePointProjectItemId>
     </None>
+    <None Include="SiteCols\RelatedPartySelection\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{94b0e01a-24aa-4bac-ac69-aacd9351a541}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\RelatedPartyYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f2ec8b5-f655-4b08-9028-15dd066a15ce}</SharePointProjectItemId>
+    </None>
     <None Include="SiteCols\ReviewedInLegalBy\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{175f561b-cf65-4517-bce2-70a3be82e32d}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\RFPAttachedYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a772a1fc-45fb-413c-9dd5-b0ef727b5c31}</SharePointProjectItemId>
+    </None>
+    <None Include="SiteCols\SoleSourcedAttachedYesNo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9ddd0545-295c-4bd1-88af-2092c6b1f072}</SharePointProjectItemId>
     </None>
     <None Include="SiteCols\TargetExecutionDate\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{ebbdebc6-7819-4cc6-8be4-cf64e967f490}</SharePointProjectItemId>
@@ -151,10 +172,13 @@
     <Content Include="SiteCols\ApprovedCapitalProjectYesNo\Elements.xml" />
     <Content Include="SiteCols\AutoRenewYesNo\Elements.xml" />
     <Content Include="SiteCols\BuildingPermitYesNo\Elements.xml" />
+    <Content Include="SiteCols\ContractActualStartDate\Elements.xml" />
     <Content Include="SiteCols\ContractAmount\Elements.xml" />
+    <Content Include="SiteCols\ContractEndDate\Elements.xml" />
     <Content Include="SiteCols\ContractLength\Elements.xml" />
     <Content Include="SiteCols\ContractType\Elements.xml" />
     <Content Include="SiteCols\DownpaymentAmount\Elements.xml" />
+    <Content Include="SiteCols\DownpaymentDueDate\Elements.xml" />
     <Content Include="SiteCols\GLCode\Elements.xml" />
     <Content Include="SiteCols\IsDownpaymentRequiredYesNo\Elements.xml" />
     <Content Include="SiteCols\LegalReviewYesNo\Elements.xml" />
@@ -163,7 +187,11 @@
     <Content Include="SiteCols\PaymentInfo\Elements.xml" />
     <Content Include="SiteCols\PONumber\Elements.xml" />
     <Content Include="SiteCols\PreferenceCodeDocDone\Elements.xml" />
+    <Content Include="SiteCols\RelatedPartySelection\Elements.xml" />
+    <Content Include="SiteCols\RelatedPartyYesNo\Elements.xml" />
     <Content Include="SiteCols\ReviewedInLegalBy\Elements.xml" />
+    <Content Include="SiteCols\RFPAttachedYesNo\Elements.xml" />
+    <Content Include="SiteCols\SoleSourcedAttachedYesNo\Elements.xml" />
     <Content Include="SiteCols\TargetExecutionDate\Elements.xml" />
     <Content Include="SiteCols\WaiverOfImmunityYesNo\Elements.xml" />
   </ItemGroup>

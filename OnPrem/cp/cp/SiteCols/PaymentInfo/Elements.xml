@@ -6,7 +6,7 @@
        DisplayName="Payment Info"
        StaticName="PaymentInfo"
        Type="Choice"
-       Description="Select your choice"
+       Description="Frequency of payment under contract terms"
        Required="TRUE"
        Sealed="FALSE"
        Group="1_FabianCP"

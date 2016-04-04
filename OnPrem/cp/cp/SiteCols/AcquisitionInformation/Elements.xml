@@ -6,7 +6,7 @@
        DisplayName="Acquisition Information"
        StaticName="AcquisitionInformation"
        Type="Choice"
-       Description="Select your Choice"
+       Description="Was the contract sourced with RFP or Sole Sourced?"
        Required="TRUE"
        Sealed="FALSE"
        Group="1_FabianCP"

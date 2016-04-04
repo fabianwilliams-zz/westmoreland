@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
   <Field
-       ID="{0caa596b-2d9d-47fd-8620-66e6903589d6}"
-       Name="AutoRenewYesNo"
-       DisplayName="Is Auto Renew?"
-       StaticName="AutoRenewYesNo"
+       ID="{668fc682-7ca2-44d7-9216-557586cfd598}"
+       Name="RFPAttachedYesNo"
+       DisplayName="Is RFP Attached?"
+       StaticName="RFPAttachedYesNo"
        Type="Choice"
-       Description="Is this contract an automatically renewing"
+       Description="Is it?"
        Required="FALSE"
        Sealed="FALSE"
        Group="1_FabianCP"

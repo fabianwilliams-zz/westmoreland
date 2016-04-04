@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8fc4eaef-e924-4ad7-8ebd-8c8372b340b6}"
+       Name="ContractEndDate"
+       DisplayName="Contract End Date"
+       StaticName="ContractEndDate"
+       Description="The date this contract is scheduled to end"
+       Type="DateTime"
+       Required="FALSE"
+       Sealed="FALSE"
+       Group="1_FabianCP">
+  </Field>
+</Elements>
